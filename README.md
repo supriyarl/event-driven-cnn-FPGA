@@ -91,5 +91,4 @@ This project is developed in alignment with **Bharat AI-SoC Student Challenge â€
 
 ---
 
-## Authors
-Student Project â€“ Bharat AI-SoC Challenge  
+

@@ -8,7 +8,6 @@ The design leverages FPGA fabric for compute-intensive convolution operations wh
 
 Unlike conventional dense CNN accelerators, this work introduces an **event-driven execution model** that processes only non-zero activations, significantly reducing redundant computation, memory accesses, and power consumption.
 
-This project is developed in alignment with **Bharat AI-SoC Student Challenge – Problem Statement 5**.
 
 ---
 

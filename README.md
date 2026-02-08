@@ -116,8 +116,6 @@ This approach minimizes idle cycles and enables faster-than-CPU inference.
 
 ## TODOs & Future Work
 
-* **Software Driver Development**
-    * Enable PS–PL communication for dynamic configuration and data management.
 * **Automatic Parameterization**
     * Support scalable PE arrays using Verilog parameters.
 * **Advanced Event Filtering**

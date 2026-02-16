@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2025.1 (64-bit)
+# SW Build 6140274 on Thu May 22 00:12:29 MDT 2025
+# IP Build 6138677 on Thu May 22 03:10:11 MDT 2025
+# SharedData Build 6139179 on Tue May 20 17:58:58 MDT 2025
+# Start of session at: Wed Jan 28 20:53:32 2026
+# Process ID         : 6552
+# Current directory  : C:/Users/bless/cnn_detection/cnn_detection.runs/impl_1
+# Command line       : vivado.exe -log TOP_integration_uart.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TOP_integration_uart.tcl -notrace
+# Log file           : C:/Users/bless/cnn_detection/cnn_detection.runs/impl_1/TOP_integration_uart.vdi
+# Journal file       : C:/Users/bless/cnn_detection/cnn_detection.runs/impl_1\vivado.jou
+# Running On         : B2130306
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 12th Gen Intel(R) Core(TM) i5-1235U
+# CPU Frequency      : 2496 MHz
+# CPU Physical cores : 10
+# CPU Logical cores  : 12
+# Host memory        : 8245 MB
+# Swap memory        : 24908 MB
+# Total Virtual      : 33153 MB
+# Available Virtual  : 8784 MB
+#-----------------------------------------------------------
+source TOP_integration_uart.tcl -notrace

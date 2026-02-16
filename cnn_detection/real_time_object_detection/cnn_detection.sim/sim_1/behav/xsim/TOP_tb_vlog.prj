@@ -1,0 +1,45 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../Xilinx/2025.1/Vivado/data/rsb/busdef" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/CSC_encoder/CSC_encoderr.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/CSC_encoder/CSC_encoderr_FIFO.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Cluster_Group/Cluster_Group.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Cluster_Group/Cluster_Group_Controller.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Cluster_Group/Cluster_Group_array.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Former_addr_Spad.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Former_data_Spad.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/GLB_Cluster.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Iact_Router.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Iact_SRAM_Bank.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Iact_addr_SRAM.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Iact_data_SRAM.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Later_addr_Spad.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Later_data_Spad.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Pooling/Max_pooling.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE_Cluster.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE_Cluster_Data_Connections.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE_Cluster_controller.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/PE_data_FIFO.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/PE_psum_FIFO.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/Processing_Element.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/Processing_Element_Controller.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/Processing_Element_core.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Quantizer/Psum_Requantizer.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Psum_Router.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Psum_SRAM_Bank.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/Psum_SRAM_out_acc.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Psum_Spad.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/Psum_rearrange.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Activation/ReLU.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Router_Cluster.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Activation/Softmax.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP_controller.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Weight_Router.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/im2col_converter/im2col_converter.v" \
+"../../../../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-test/tb/TOP_test/TOP_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

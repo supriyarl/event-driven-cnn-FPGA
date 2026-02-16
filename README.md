@@ -350,10 +350,6 @@ Compared to the original Eyeriss v2 router, this event-based router architecture
 
 
 
-# FPGA Verification
-
-We implemented and verified the proposed **event-driven object detection accelerator** on an FPGA platform using a **2×2 event cluster configuration** deployed on the **Xilinx ZCU102 FPGA board**. The complete RTL design was synthesized using **Xilinx Vivado**, and the generated bitstream was programmed onto the ZCU102 to validate functional correctness, timing behavior, and real-time performance of the accelerator. This FPGA-based implementation enabled detailed evaluation of the event-driven control logic, sparse routing network, and event-aware processing elements under realistic hardware conditions.
-
 
 ##  Performance Comparison
 
@@ -363,6 +359,13 @@ We implemented and verified the proposed **event-driven object detection acceler
 | **Power Consumption** | 15W – 65W+ | < 5W (Total Board Power) | 3x – 10x Lower |
 | **Data Redundancy** | 100% (Processes every frame) | ~10% – 20% (Processes only events) | 80% Reduction |
 | **Response Logic** | Batch-based (Waits for full frame) | Streaming (Asynchronous spikes) | Real-time Immediate |
+
+
+
+
+# FPGA Verification
+
+We implemented and verified the proposed **event-driven object detection accelerator** on an FPGA platform using a **2×2 event cluster configuration** deployed on the **Xilinx ZCU102 FPGA board**. The complete RTL design was synthesized using **Xilinx Vivado**, and the generated bitstream was programmed onto the ZCU102 to validate functional correctness, timing behavior, and real-time performance of the accelerator. This FPGA-based implementation enabled detailed evaluation of the event-driven control logic, sparse routing network, and event-aware processing elements under realistic hardware conditions.
 
 
 For data transmission, the design leverages **PL-side high-speed interfaces** of the ZCU102 to receive event data directly from a host PC. A **custom UART-based communication protocol** was implemented to support asynchronous event streams, allowing sparse, event-driven data to be transferred efficiently to the programmable logic (PL). This setup ensures reliable communication while preserving the asynchronous nature of event-based processing.

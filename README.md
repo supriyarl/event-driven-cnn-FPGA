@@ -349,6 +349,14 @@ Compared to the original Eyeriss v2 router, this event-based router architecture
 ![WhatsApp Image 2026-02-05 at 11 11 21 PM](https://github.com/user-attachments/assets/02b0632d-21cb-4cb6-9eec-c705384dd75e)
 
 
+##  Data Flow and Mapping
+
+
+
+<img width="1135" height="239" alt="image" src="https://github.com/user-attachments/assets/e778c0a3-b207-4189-9508-56d0baab09bb" />
+
+
+
 
 
 ##  Performance Comparison

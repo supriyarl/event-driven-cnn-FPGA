@@ -354,6 +354,17 @@ Compared to the original Eyeriss v2 router, this event-based router architecture
 
 We implemented and verified the proposed **event-driven object detection accelerator** on an FPGA platform using a **2×2 event cluster configuration** deployed on the **Xilinx ZCU102 FPGA board**. The complete RTL design was synthesized using **Xilinx Vivado**, and the generated bitstream was programmed onto the ZCU102 to validate functional correctness, timing behavior, and real-time performance of the accelerator. This FPGA-based implementation enabled detailed evaluation of the event-driven control logic, sparse routing network, and event-aware processing elements under realistic hardware conditions.
 
+
+##  Performance Comparison
+
+| Metric | CPU-Based Detection (e.g., YOLO on ARM/x86) | Event-Driven Accelerator (FPGA) | Improvement Factor |
+|--------|---------------------------------------------|----------------------------------|---------------------|
+| **End-to-End Latency** | 20 ms – 100+ ms | < 2.5 ms | 10x – 40x Faster |
+| **Power Consumption** | 15W – 65W+ | < 5W (Total Board Power) | 3x – 10x Lower |
+| **Data Redundancy** | 100% (Processes every frame) | ~10% – 20% (Processes only events) | 80% Reduction |
+| **Response Logic** | Batch-based (Waits for full frame) | Streaming (Asynchronous spikes) | Real-time Immediate |
+
+
 For data transmission, the design leverages **PL-side high-speed interfaces** of the ZCU102 to receive event data directly from a host PC. A **custom UART-based communication protocol** was implemented to support asynchronous event streams, allowing sparse, event-driven data to be transferred efficiently to the programmable logic (PL). This setup ensures reliable communication while preserving the asynchronous nature of event-based processing.
 
 The FPGA demonstration focuses on a **real-time object detection pipeline driven by event-based inputs**. On the host PC side, a **Python-based graphical user interface (GUI)** was developed to capture input data, generate sparse events based on motion or pixel-level changes, and transmit these events to the FPGA for inference. Once received, the event-driven accelerator processes the incoming event stream in real time and outputs detection results with low latency.

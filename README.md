@@ -361,6 +361,15 @@ Compared to the original Eyeriss v2 router, this event-based router architecture
 | **Response Logic** | Batch-based (Waits for full frame) | Streaming (Asynchronous spikes) | Real-time Immediate |
 
 
+<img width="996" height="856" alt="image" src="https://github.com/user-attachments/assets/9b1ff486-91a8-457b-a9f3-f0cf31f5a9d5" />
+
+
+
+<img width="972" height="169" alt="image" src="https://github.com/user-attachments/assets/151a755a-880f-45fe-9519-e4fe9fc3c9ac" />
+
+
+
+
 
 
 # FPGA Verification

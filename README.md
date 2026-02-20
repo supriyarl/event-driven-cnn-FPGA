@@ -161,8 +161,7 @@ This project introduces an **event-driven hardware accelerator for real-time obj
 
 The diagram below illustrates the interaction between the Event Generator, the Scheduler, and the Processing Element (PE) Array.
 
-![System Hierarchy Diagram](![WhatsApp Image 2026-02-17 at 10 22 23 PM](https://github.com/user-attachments/assets/fa59ed30-ab56-48c4-8835-fcbb6f428900)
-
+![System Hierarchy Diagram](![ARM_page-0001](https://github.com/user-attachments/assets/4dc3d5da-2adb-49bd-8a2b-a5de7f0a9b95)
 
 ---
 

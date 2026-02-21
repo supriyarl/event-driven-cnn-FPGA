@@ -400,11 +400,14 @@ The CNN layer integrates **event-triggered convolution, simplified activation lo
 
 This customized CNN layer serves as the core inference block in the ZCU102 demonstration, validating the feasibility of **event-driven, hardware-accelerated object detection** for high-performance edge and embedded vision applications.
 
+Version 1
+
 ![WhatsApp Image 2026-02-04 at 9 34 50 PM](https://github.com/user-attachments/assets/dfa05fd6-0596-4deb-9958-cfd84f52f244)
 
-<img width="1861" height="980" alt="Screenshot 2026-02-20 234633" src="https://github.com/user-attachments/assets/fde265e1-29bf-4ead-a04e-42f2faac010d" />
+Version 2 
 
-<img width="617" height="547" alt="image" src="https://github.com/user-attachments/assets/6223af6f-9cb8-456a-9149-81cee343c2a5" />
+<img width="1220" height="684" alt="image" src="https://github.com/user-attachments/assets/91fb82f8-b61d-4e9e-9a1a-8d55e05112bb" />
+
 
 
 

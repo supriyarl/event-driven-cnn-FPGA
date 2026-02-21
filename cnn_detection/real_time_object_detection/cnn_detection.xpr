@@ -4,7 +4,7 @@
 <!-- Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.                   -->
 <!-- Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.   -->
 
-<Project Product="Vivado" Version="7" Minor="70" Path="C:/Users/bless/cnn_detection/cnn_detection.xpr">
+<Project Product="Vivado" Version="7" Minor="70" Path="C:/Users/bless/cnn_detection/real_time_object_detection/cnn_detection.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="7401d1beddfc445b9e2dc252bc72f333"/>
@@ -90,337 +90,329 @@
   <FileSets Version="1" Minor="32">
     <FileSet Name="sources_1" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/CSC_encoder/CSC_encoderr.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/CSC_encoder/CSC_encoderr.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/CSC_encoder/CSC_encoderr_FIFO.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/CSC_encoder/CSC_encoderr_FIFO.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Cluster_Group/Cluster_Group.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Cluster_Group/Cluster_Group.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Cluster_Group/Cluster_Group_Controller.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Cluster_Group/Cluster_Group_Controller.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Cluster_Group/Cluster_Group_array.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Cluster_Group/Cluster_Group_array.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Former_addr_Spad.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Former_addr_Spad.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Former_data_Spad.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Former_data_Spad.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/GLB_Cluster.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/GLB_Cluster.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Iact_Router.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Iact_Router.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Iact_SRAM_Bank.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Iact_SRAM_Bank.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Iact_addr_SRAM.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Iact_addr_SRAM.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Iact_data_SRAM.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Iact_data_SRAM.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Later_addr_Spad.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Later_addr_Spad.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Later_data_Spad.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Later_data_Spad.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Pooling/Max_pooling.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Pooling/Max_pooling.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE_Cluster.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE_Cluster.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE_Cluster_Data_Connections.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE_Cluster_Data_Connections.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE_Cluster_controller.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE_Cluster_controller.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/PE_data_FIFO.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/PE_data_FIFO.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/PE_psum_FIFO.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/PE_psum_FIFO.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/Processing_Element.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/Processing_Element.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/Processing_Element_Controller.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/Processing_Element_Controller.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/Processing_Element_core.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/Processing_Element_core.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Quantizer/Psum_Requantizer.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Quantizer/Psum_Requantizer.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Psum_Router.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Psum_Router.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Psum_SRAM_Bank.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/GLB_Cluster/Psum_SRAM_Bank.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/Psum_SRAM_out_acc.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/Psum_SRAM_out_acc.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Psum_Spad.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/PE_Cluster/PE/SPad/Psum_Spad.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/Psum_rearrange.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/Psum_rearrange.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Activation/ReLU.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Activation/ReLU.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Router_Cluster.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Router_Cluster.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Activation/Softmax.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Activation/Softmax.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP_controller.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP_controller.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP_interface.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP_interface.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Weight_Router.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/Router_Cluster/Weight_Router.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/IO_processing/clock_gen.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/IO_processing/clock_gen.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/im2col_converter/im2col_converter.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/im2col_converter/im2col_converter.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/IO_processing/interrupt_gen.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/IO_processing/interrupt_gen.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/display/seg7_encoder.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/display/seg7_encoder.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/start_en_detect.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/start_en_detect.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/uart_module.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/uart_module.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/RX/uart_rx_band_gen.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/RX/uart_rx_band_gen.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/RX/uart_rx_ctl.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/RX/uart_rx_ctl.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/RX/uart_rx_module.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/RX/uart_rx_module.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP_integration_uart.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP_integration_uart.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/display/seg7_scan.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/display/seg7_module.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/display/seg7_scan.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -428,7 +420,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/CSC_encoder/CSCSwitcher.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/display/seg7_module.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -436,7 +428,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP_integration.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/CSC_encoder/CSCSwitcher.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -444,7 +436,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP_integration_rom.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP_integration.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -452,7 +444,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/IO_processing/debouncing.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/TOP_integration_rom.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -460,7 +452,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/uart_top_ctrl.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/IO_processing/debouncing.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -468,7 +460,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/TX/uart_tx_band_gen.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/uart_top_ctrl.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -476,7 +468,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/TX/uart_tx_ctl.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/TX/uart_tx_band_gen.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -484,7 +476,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/TX/uart_tx_module.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/TX/uart_tx_ctl.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -492,7 +484,15 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/SCNN_shape_info_compiler.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/UART/TX/uart_tx_module.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-src/TOP/SCNN_shape_info_compiler.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -507,25 +507,25 @@
     </FileSet>
     <FileSet Name="constrs_1" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
       <Filter Type="Constrs"/>
-      <File Path="$PPRDIR/../Downloads/constraints.xdc">
+      <File Path="$PPRDIR/../../Downloads/constraints.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/pynq_z2_example.xdc">
+      <File Path="$PPRDIR/../../Downloads/pynq_z2_example.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/uart2.xdc">
+      <File Path="$PPRDIR/../../Downloads/uart2.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/uart.xdc">
+      <File Path="$PPRDIR/../../Downloads/uart.xdc">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
@@ -537,22 +537,14 @@
     </FileSet>
     <FileSet Name="sim_1" Type="SimulationSrcs" RelSrcDir="$PSRCDIR/sim_1" RelGenDir="$PGENDIR/sim_1">
       <Filter Type="Srcs"/>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-test/tb/TOP_test/TOP_tb.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-test/tb/TOP_test/TOP_tb.v">
         <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-test/tb/TOP_test/TOP_integration_tb.v">
-        <FileInfo>
-          <Attr Name="AutoDisabled" Val="1"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-test/tb/TOP_test/TOP_integration_uart_tb.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-test/tb/TOP_test/TOP_integration_tb.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -560,7 +552,15 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-test/tb/TOP_test/TOP_interface_tb.v">
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-test/tb/TOP_test/TOP_integration_uart_tb.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../../Downloads/BoooC CNN-Accelerator-Based-on-Eyeriss-v2 master FPGA_design-test/tb/TOP_test/TOP_interface_tb.v">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>

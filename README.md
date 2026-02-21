@@ -402,6 +402,12 @@ This customized CNN layer serves as the core inference block in the ZCU102 demon
 
 ![WhatsApp Image 2026-02-04 at 9 34 50 PM](https://github.com/user-attachments/assets/dfa05fd6-0596-4deb-9958-cfd84f52f244)
 
+<img width="1861" height="980" alt="Screenshot 2026-02-20 234633" src="https://github.com/user-attachments/assets/fde265e1-29bf-4ead-a04e-42f2faac010d" />
+
+<img width="617" height="547" alt="image" src="https://github.com/user-attachments/assets/6223af6f-9cb8-456a-9149-81cee343c2a5" />
+
+
+
 
 
 ## License

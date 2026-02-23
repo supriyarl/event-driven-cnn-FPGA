@@ -20,14 +20,10 @@ This architecture is suitable for applications such as:
 * Industrial vision systems
 
 
-  ## System Hierarchy Diagram
+## System Hierarchy Diagram
 
 The diagram below illustrates the interaction the ARM Cortx and the FPGA (ZCU102 FABRIC)
-(![ARM_page-0001](https://github.com/user-attachments/assets/4dc3d5da-2adb-49bd-8a2b-a5de7f0a9b95)
-
----
-
----
+![ARM_page-0001](https://github.com/user-attachments/assets/4dc3d5da-2adb-49bd-8a2b-a5de7f0a9b95)
 
 ## Repository Contents
 

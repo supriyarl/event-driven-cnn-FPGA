@@ -19,6 +19,14 @@ This architecture is suitable for applications such as:
 * Smart traffic monitoring
 * Industrial vision systems
 
+
+  ## System Hierarchy Diagram
+
+The diagram below illustrates the interaction the ARM Cortx and the FPGA (ZCU102 FABRIC)
+(![ARM_page-0001](https://github.com/user-attachments/assets/4dc3d5da-2adb-49bd-8a2b-a5de7f0a9b95)
+
+---
+
 ---
 
 ## Repository Contents
@@ -157,12 +165,7 @@ This project introduces an **event-driven hardware accelerator for real-time obj
 ---
 
 
-## System Hierarchy Diagram
 
-The diagram below illustrates the interaction the ARM Cortx and the FPGA (ZCU102 FABRIC)
-(![ARM_page-0001](https://github.com/user-attachments/assets/4dc3d5da-2adb-49bd-8a2b-a5de7f0a9b95)
-
----
 
 ###### Implementation
 

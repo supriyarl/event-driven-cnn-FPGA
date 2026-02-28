@@ -202,7 +202,7 @@ The top-level design integrates the event-driven control logic with the computat
 
 Building upon conventional CNN accelerator designs, our architecture introduces a **fully event-driven processing paradigm with sparse connectivity**, enabling computation to occur **only when meaningful events are detected**. This fundamentally departs from frame-based execution and significantly reduces redundant computation, memory access, and power consumption.
 
-As illustrated in Fig. X, the core of the system is organized as a **4×2 event-driven cluster array**, which can be scaled up or down depending on performance and resource requirements. For FPGA validation, the design is configured with a reduced cluster size to accommodate logic and memory constraints, while preserving architectural scalability for future ASIC implementations.
+As illustrated in Figure the core of the system is organized as a **4×2 event-driven cluster array**, which can be scaled up or down depending on performance and resource requirements. For FPGA validation, the design is configured with a reduced cluster size to accommodate logic and memory constraints, while preserving architectural scalability for future ASIC implementations.
 
 ---
 

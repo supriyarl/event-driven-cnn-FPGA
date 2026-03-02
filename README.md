@@ -62,7 +62,7 @@ The diagram below illustrates the interaction the ARM Cortx and the FPGA (ZCU102
       
 * **Demo Video**
     Demonstration of real-time object detection and latency improvements
-    *(https://drive.google.com/file/d/1HR9wRIREJBfmzIOOddZTRRLrGAI_w6Op/view?usp=drive_link)*
+    *https://drive.google.com/file/d/1HR9wRIREJBfmzIOOddZTRRLrGAI_w6Op/view?usp=drive_link*
 
 ---
 

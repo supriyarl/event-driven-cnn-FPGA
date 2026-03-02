@@ -25,6 +25,16 @@ This architecture is suitable for applications such as:
 The diagram below illustrates the interaction the ARM Cortx and the FPGA (ZCU102 FABRIC)
 ![ARM_page-0001](https://github.com/user-attachments/assets/4dc3d5da-2adb-49bd-8a2b-a5de7f0a9b95)
 
+
+
+
+## Hardware Design
+
+
+<img width="875" height="478" alt="image" src="https://github.com/user-attachments/assets/095b655b-a0a2-4137-bf48-b64191cdc5ba" />
+
+
+
 ## Repository Contents
 
 * **Verilog / RTL Code**
@@ -33,22 +43,26 @@ The diagram below illustrates the interaction the ARM Cortx and the FPGA (ZCU102
     * Processing Elements (PEs)
     * Feature extraction blocks
     * Control and scheduling FSMs
+      
 * **Python Code**
     Scripts for:
     * Dataset preprocessing
     * Event generation and simulation
     * Test vector creation and verification
+      
 * **Bitstream Files**
     Precompiled FPGA bitstreams for deployment and testing.
+  
 * **Research Paper & Reports**
     Documentation covering:
     * Architecture design
     * Event-driven computation model
     * Latency and power analysis
     * Comparison with CPU-based object detection
+      
 * **Demo Video**
     Demonstration of real-time object detection and latency improvements
-    *(Link to be added)*
+    *(https://drive.google.com/file/d/1HR9wRIREJBfmzIOOddZTRRLrGAI_w6Op/view?usp=drive_link)*
 
 ---
 
